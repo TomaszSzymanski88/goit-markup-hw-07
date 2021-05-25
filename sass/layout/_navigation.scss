@@ -1,0 +1,14 @@
+.portfolio-navigation {
+  padding-bottom: 50px;
+
+&__list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+}
+
+.portfolio-navigation__list > .portfolio-navigation__item:not(:last-child) {
+  margin-right: 8px;
+}
+
